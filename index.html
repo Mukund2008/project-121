@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+      
+      </head>
+
+      <body>
+        <center>
+         <div class="btn btn-warning header">
+             Case Study between Google Lens and Mobilenet
+             <hr>
+             <br>
+            <p>Google Lens</p> 
+            vs
+            <br>
+            <p>Mobile Net</p>
+         </div>
+
+         <div class="test_img">
+            <h2>Test Image 1</h2>
+            <hr>
+            <img class="img" src="bottle.png">
+            <h4 class="results">
+                Output on:
+               <b>Mobilenet-</b>  
+               <div class="output"> Water Bottle </div>
+             </h4>
+             <h4 class="results">
+                Output on:
+               <b>Google Lens-</b>  
+               <div class="output"> Water Bottle </div>
+             </h4>
+             <div class="miniResults">
+               Results
+               <hr>
+               Draw
+             </div>
+         </div>
+
+         <div class="test_img">
+            <h2>Test Image 2</h2>
+            <hr>
+            <img class="img" src="shoes.jpeg">
+            <h4 class="results">
+                Output on:
+               <b>Mobilenet-</b>  
+               <div class="output"> Running Shoes </div>
+             </h4>
+             <h4 class="results">
+                Output on:
+               <b>Google Lens-</b>  
+               <div class="output"> Sports Running Shoes </div>
+             </h4>
+             <div class="miniResults">
+               Results
+               <hr>
+               Google Lens is more accurate
+             </div>
+         </div>
+
+         <div class="test_img">
+            <h2>Test Image 3</h2>
+            <hr>
+            <img class="img" src="head-phone.png">
+            <h4 class="results">
+                Output on:
+               <b>Mobilenet-</b>  
+               <div class="output"> Microphone,mike </div>
+             </h4>
+             <h4 class="results">
+                Output on:
+               <b>Google Lens-</b>  
+               <div class="output"> Blutooth overear-headphones </div>
+             </h4>
+             <div class="miniResults">
+               Results
+               <hr>
+               Google Lens is more accurate
+             </div>
+         </div>
+
+         <div class="test_img">
+            <h2>Test Image 4</h2>
+            <hr>
+            <img class="img" src="pen.jpg">
+            <h4 class="results">
+                Output on:
+               <b>Mobilenet-</b>  
+               <div class="output"> Ball point,Ball point pen,Ballpen,Biro </div>
+             </h4>
+             <h4 class="results">
+                Output on:
+               <b>Google Lens-</b>  
+               <div class="output"> Fountain pen </div>
+             </h4>
+             <div class="miniResults">
+               Results
+               <hr>
+               Google Lens is more accurate
+             </div>
+         </div>
+
+         <div class="test_img">
+            <h2>Test Image 5</h2>
+            <hr>
+            <img class="img" src="bed.jpg">
+            <h4 class="results">
+                Output on:
+               <b>Mobilenet-</b>  
+               <div class="output"> Bath tub,Bathing tub,Tub </div>
+             </h4>
+             <h4 class="results">
+                Output on:
+               <b>Google Lens-</b>  
+               <div class="output"> Multicolor Queen size bed </div>
+             </h4>
+             <div class="miniResults">
+               Results
+               <hr>
+               Google Lens is more accurate
+             </div>
+         </div>
+
+         <div class="footer">
+          I have tested 5 images
+          <br>
+          <b>ModileNet</b> has pedicted 1 of them correctly.<b>Google Lens</b> has predected 5 of them correctly.So according to my case study<b>Google Lens</b> is more accurate.
+         </div>
+</html>
